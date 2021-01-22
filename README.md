@@ -1,10 +1,13 @@
 # Chat Application
 
+[![Java](https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white&link=https://github.com/sumitt1080)](https://github.com/sumitt1080)
+
 A real-time GUI based chat application is implemented using **Java** and **multi-threading** where communication takes place over **socket** connection and data flows bi-directionally between Server and multiple Clients, also configured persistent queue to prevent data loss and provide offline message storage capability.
 
 ## Instructions on compiling and running the project:
 
-IDE Used: **VS Code**
+IDE Used: **VS Code** 
+
 Language: **Java 8**
 
 - Clone the repo and use any of your IDE.
