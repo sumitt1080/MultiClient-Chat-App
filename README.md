@@ -19,7 +19,12 @@ Language: **Java 8**
 - Select a username from above list to chat personally. Select 'broadcast' to send your message to all logged in clients.
 
 ## Screenshots
-https://github.com/sumitt1080/MultiClient-Chat-App/blob/main/scrennshots/serverMain.jpg
+![serverMain](https://user-images.githubusercontent.com/51052011/105521102-7be6b600-5d01-11eb-8b98-618b6313daa0.jpg)
  
+ ![Client1](https://user-images.githubusercontent.com/51052011/105521206-97ea5780-5d01-11eb-8204-10e4e5347889.jpg)
+ 
+ ![ServerOn](https://user-images.githubusercontent.com/51052011/105521257-a59fdd00-5d01-11eb-9da8-cfd406936bf9.jpg)
+ 
+ ![ClientOn](https://user-images.githubusercontent.com/51052011/105521304-b51f2600-5d01-11eb-80b8-88fab92c1657.jpg)
 ## Note
 I had tested it with 5 simultaneous clients. If u find any misbehaviour on more number of client please let me know.
