@@ -1,14 +1,19 @@
-## Getting Started
+# Chat Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A real-time GUI based chat application is implemented using **Java** and **multi-threading** where communication takes place over **socket** connection and data flows bi-directionally between Server and multiple Clients, also configured persistent queue to prevent data loss and provide offline message storage capability.
 
-## Folder Structure
+## Instructions on compiling and running the project:
 
-The workspace contains two folders by default, where:
+IDE Used: **VS Code**
+Language: **Java 8**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+- Clone the repo and use any of your IDE.
+- Navigate src/main/ServerMain.java. Run it. If prompted for Firewall access, please click 'Allow access', else continue.
+- When Server GUI get opened, Click 'Start Server' to start the server on local machine.
+- Now navigate src/main/ClientMain.java. Run it. You can run it multiple time to open more than 1 client GUI.
+- When Client GUI get opened. Click 'Connect' and then enter a username and press 'Login'. You will get a success dialog box.
+- In Client GUI, at below right, you will get to see all registered user and an additional broadcast option. 
+- Select a username from above list to chat personally. Select 'broadcast' to send your message to all logged in clients.
+ 
+## Note
+I had tested it with 5 simultaneous clients. If u find any misbehaviour on more number of client please let me know.
