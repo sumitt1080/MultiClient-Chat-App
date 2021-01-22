@@ -17,6 +17,9 @@ Language: **Java 8**
 - When Client GUI get opened. Click 'Connect' and then enter a username and press 'Login'. You will get a success dialog box.
 - In Client GUI, at below right, you will get to see all registered user and an additional broadcast option. 
 - Select a username from above list to chat personally. Select 'broadcast' to send your message to all logged in clients.
+
+## Screenshots
+https://github.com/sumitt1080/MultiClient-Chat-App/blob/main/scrennshots/serverMain.jpg
  
 ## Note
 I had tested it with 5 simultaneous clients. If u find any misbehaviour on more number of client please let me know.
